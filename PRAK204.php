@@ -8,6 +8,7 @@
         </form>
         <h2>
         <?php
+            error_reporting(0);
             $bilangan = $_POST['bil'];
             if ($bilangan < 0 || $bilangan > 999){
                 echo "Hasil : Anda Menginput Melebihi Limit Bilangan";
