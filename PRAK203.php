@@ -22,6 +22,7 @@
 </html>
 
 <?php
+  error_reporting(0);
   if(isset($_POST["submit"])){
     $input = $_POST['in'];
     $suhu = $_POST['suhu'];
