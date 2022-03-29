@@ -17,41 +17,17 @@
         $input3 = $_POST['nama3'];
 
         if ($input1 < $input2 && $input1 < $input3 && $input2 < $input3){
-            echo $input1;
-            echo "<br>";
-            echo $input2;
-            echo "<br>";
-            echo $input3;
+            echo "$input1 <br> $input2 <br> $input3";
         } else if ($input1 < $input2 && $input1 < $input3 && $input2 > $input3){
-            echo $input1;
-            echo "<br>";
-            echo $input3;
-            echo "<br>";
-            echo $input2;
+            echo "$input1 <br> $input3 <br> $input2";
         } else if ($input2 < $input1 && $input2 < $input3 && $input1 < $input3){
-            echo $input2;
-            echo "<br>";
-            echo $input1;
-            echo "<br>";
-            echo $input3;
+            echo "$input2 <br> $input1 <br> $input3";
         } else if ($input2 < $input1 && $input2 < $input3 && $input1 > $input3){
-            echo $input2;
-            echo "<br>";
-            echo $input3;
-            echo "<br>";
-            echo $input1;
+            echo "$input2 <br> $input3 <br> $input1";
         } else if ($input3 < $input1 && $input3 < $input2 && $input1 < $input2){
-            echo $input3;
-            echo "<br>";
-            echo $input1;
-            echo "<br>";
-            echo $input2;
+            echo "$input3 <br> $input1 <br> $input2";
         } else if ($input3 < $input1 && $input3 < $input2 && $input1 > $input2){
-            echo $input3;
-            echo "<br>";
-            echo $input2;
-            echo "<br>";
-            echo $input1;
+            echo "$input3 <br> $input2 <br> $input1";
         }
     ?>
     </body>
